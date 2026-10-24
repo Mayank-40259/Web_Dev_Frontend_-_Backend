@@ -2,6 +2,8 @@
 
 /* using HTML CSS AND Java Script -> css -> to inserted colors into your websites. */
 
+/* adding margin and padding and image setup */
+/* problem: image not displaying correctly */
 
 *{
     margin: 0;
@@ -19,13 +21,23 @@ h1{
 
 
 .choice {
-    height: 165px;
-    width: 165px;
+    height: 200px;
+    width: 200px;
+    /* border-radius: 50%; */
+    
 }
 
 .img{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+choices{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 
